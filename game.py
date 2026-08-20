@@ -37,7 +37,7 @@ class SnakeGameAI:
         self.h = h
         # init display
         self.display = pygame.display.set_mode((self.w, self.h))
-        pygame.display.set_caption('Snake')
+        pygame.display.set_caption('Game Ular')
         self.clock = pygame.time.Clock()
         self.reset()
         
